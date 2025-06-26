@@ -1,0 +1,1318 @@
+; Created by cgenff_charmm2gmx.py
+
+[ moleculetype ]
+; Name			   nrexcl
+CHYO				 3
+
+[ atoms ]
+;	 nr		  type	resnr residue  atom   cgnr	   charge		mass  typeB    chargeB		massB
+; residue	 1 CHYO rtp CHYO q	qsum
+     1       CTL3      1   CHYO   C318      1     -0.270     12.011   ;
+     2       HAL3      1   CHYO   H18A      2      0.090      1.008   ;
+     3       HAL3      1   CHYO   H18B      3      0.090      1.008   ;
+     4       HAL3      1   CHYO   H18C      4      0.090      1.008   ;
+     5       CTL2      1   CHYO   C317      5     -0.180     12.011   ;
+     6       HAL2      1   CHYO   H17A      6      0.090      1.008   ;
+     7       HAL2      1   CHYO   H17B      7      0.090      1.008   ;
+     8       CTL2      1   CHYO   C316      8     -0.180     12.011   ;
+     9       HAL2      1   CHYO   H16A      9      0.090      1.008   ;
+    10       HAL2      1   CHYO   H16B     10      0.090      1.008   ;
+    11       CTL2      1   CHYO   C315     11     -0.180     12.011   ;
+    12       HAL2      1   CHYO   H15A     12      0.090      1.008   ;
+    13       HAL2      1   CHYO   H15B     13      0.090      1.008   ;
+    14       CTL2      1   CHYO   C314     14     -0.180     12.011   ;
+    15       HAL2      1   CHYO   H14A     15      0.090      1.008   ;
+    16       HAL2      1   CHYO   H14B     16      0.090      1.008   ;
+    17       CTL2      1   CHYO   C313     17     -0.180     12.011   ;
+    18       HAL2      1   CHYO   H13A     18      0.090      1.008   ;
+    19       HAL2      1   CHYO   H13B     19      0.090      1.008   ;
+    20       CTL2      1   CHYO   C312     20     -0.180     12.011   ;
+    21       HAL2      1   CHYO   H12A     21      0.090      1.008   ;
+    22       HAL2      1   CHYO   H12B     22      0.090      1.008   ;
+    23       CTL2      1   CHYO   C311     23     -0.180     12.011   ;
+    24       HAL2      1   CHYO   H11A     24      0.090      1.008   ;
+    25       HAL2      1   CHYO   H11B     25      0.090      1.008   ;
+    26       CEL1      1   CHYO   C310     26     -0.150     12.011   ;
+    27       HEL1      1   CHYO   H10A     27      0.150      1.008   ;
+    28       CEL1      1   CHYO    C39     28     -0.150     12.011   ;
+    29       HEL1      1   CHYO    H9A     29      0.150      1.008   ;
+    30       CTL2      1   CHYO    C38     30     -0.180     12.011   ;
+    31       HAL2      1   CHYO    H8A     31      0.090      1.008   ;
+    32       HAL2      1   CHYO    H8B     32      0.090      1.008   ;
+    33       CTL2      1   CHYO    C37     33     -0.180     12.011   ;
+    34       HAL2      1   CHYO    H7A     34      0.090      1.008   ;
+    35       HAL2      1   CHYO    H7B     35      0.090      1.008   ;
+    36       CTL2      1   CHYO    C36     36     -0.180     12.011   ;
+    37       HAL2      1   CHYO    H6A     37      0.090      1.008   ;
+    38       HAL2      1   CHYO    H6B     38      0.090      1.008   ;
+    39       CTL2      1   CHYO    C35     39     -0.180     12.011   ;
+    40       HAL2      1   CHYO    H5A     40      0.090      1.008   ;
+    41       HAL2      1   CHYO    H5B     41      0.090      1.008   ;
+    42       CTL2      1   CHYO    C34     42     -0.180     12.011   ;
+    43       HAL2      1   CHYO    H4A     43      0.090      1.008   ;
+    44       HAL2      1   CHYO    H4B     44      0.090      1.008   ;
+    45       CTL2      1   CHYO    C33     45     -0.180     12.011   ;
+    46       HAL2      1   CHYO    H3A     46      0.090      1.008   ;
+    47       HAL2      1   CHYO    H3B     47      0.090      1.008   ;
+    48       CTL2      1   CHYO    C32     48     -0.220     12.011   ;
+    49       HAL2      1   CHYO    H2A     49      0.090      1.008   ;
+    50       HAL2      1   CHYO    H2B     50      0.090      1.008   ;
+    51        OSL      1   CHYO    O31     51     -0.490     15.999   ;
+    52         CL      1   CHYO    C31     52      0.900     12.011   ;
+    53        OBL      1   CHYO    O32     53     -0.630     15.999   ;
+    54       CRL1      1   CHYO     C3     54      0.170     12.011   ;
+    55       HGA1      1   CHYO     H3     55      0.090      1.008   ;
+    56       CRL2      1   CHYO     C4     56     -0.180     12.011   ;
+    57       HGA2      1   CHYO    H4R     57      0.090      1.008   ;
+    58       HGA2      1   CHYO    H4S     58      0.090      1.008   ;
+    59       CEL1      1   CHYO     C5     59      0.000     12.011   ;
+    60       CEL1      1   CHYO     C6     60     -0.150     12.011   ;
+    61       HEL1      1   CHYO     H6     61      0.150      1.008   ;
+    62       CRL2      1   CHYO     C7     62     -0.180     12.011   ;
+    63       HGA2      1   CHYO    H7R     63      0.090      1.008   ;
+    64       HGA2      1   CHYO    H7S     64      0.090      1.008   ;
+    65       CRL1      1   CHYO     C8     65     -0.090     12.011   ;
+    66       HGA1      1   CHYO     H8     66      0.090      1.008   ;
+    67       CRL1      1   CHYO    C14     67     -0.090     12.011   ;
+    68       HGA1      1   CHYO    H14     68      0.090      1.008   ;
+    69       CRL2      1   CHYO    C15     69     -0.180     12.011   ;
+    70       HGA2      1   CHYO   H15R     70      0.090      1.008   ;
+    71       HGA2      1   CHYO   H15S     71      0.090      1.008   ;
+    72       CRL2      1   CHYO    C16     72     -0.180     12.011   ;
+    73       HGA2      1   CHYO   H16R     73      0.090      1.008   ;
+    74       HGA2      1   CHYO   H16S     74      0.090      1.008   ;
+    75       CRL1      1   CHYO    C17     75     -0.090     12.011   ;
+    76       HGA1      1   CHYO    H17     76      0.090      1.008   ;
+    77       CRL1      1   CHYO    C13     77      0.000     12.011   ;
+    78       CTL3      1   CHYO    C18     78     -0.270     12.011   ;
+    79       HAL3      1   CHYO   H18R     79      0.090      1.008   ;
+    80       HAL3      1   CHYO   H18S     80      0.090      1.008   ;
+    81       HAL3      1   CHYO   H18T     81      0.090      1.008   ;
+    82       CRL2      1   CHYO    C12     82     -0.180     12.011   ;
+    83       HGA2      1   CHYO   H12R     83      0.090      1.008   ;
+    84       HGA2      1   CHYO   H12S     84      0.090      1.008   ;
+    85       CRL2      1   CHYO    C11     85     -0.180     12.011   ;
+    86       HGA2      1   CHYO   H11R     86      0.090      1.008   ;
+    87       HGA2      1   CHYO   H11S     87      0.090      1.008   ;
+    88       CRL1      1   CHYO     C9     88     -0.090     12.011   ;
+    89       HGA1      1   CHYO     H9     89      0.090      1.008   ;
+    90       CRL1      1   CHYO    C10     90      0.000     12.011   ;
+    91       CTL3      1   CHYO    C19     91     -0.270     12.011   ;
+    92       HAL3      1   CHYO   H19R     92      0.090      1.008   ;
+    93       HAL3      1   CHYO   H19S     93      0.090      1.008   ;
+    94       HAL3      1   CHYO   H19T     94      0.090      1.008   ;
+    95       CRL2      1   CHYO     C1     95     -0.180     12.011   ;
+    96       HGA2      1   CHYO    H1R     96      0.090      1.008   ;
+    97       HGA2      1   CHYO    H1S     97      0.090      1.008   ;
+    98       CRL2      1   CHYO     C2     98     -0.180     12.011   ;
+    99       HGA2      1   CHYO    H2R     99      0.090      1.008   ;
+   100       HGA2      1   CHYO    H2S    100      0.090      1.008   ;
+   101       CTL1      1   CHYO    C20    101     -0.090     12.011   ;
+   102       HAL1      1   CHYO    H20    102      0.090      1.008   ;
+   103       CTL3      1   CHYO    C21    103     -0.270     12.011   ;
+   104       HAL3      1   CHYO   H21R    104      0.090      1.008   ;
+   105       HAL3      1   CHYO   H21S    105      0.090      1.008   ;
+   106       HAL3      1   CHYO   H21T    106      0.090      1.008   ;
+   107       CTL2      1   CHYO    C22    107     -0.180     12.011   ;
+   108       HAL2      1   CHYO   H22R    108      0.090      1.008   ;
+   109       HAL2      1   CHYO   H22S    109      0.090      1.008   ;
+   110       CTL2      1   CHYO    C23    110     -0.180     12.011   ;
+   111       HAL2      1   CHYO   H23R    111      0.090      1.008   ;
+   112       HAL2      1   CHYO   H23S    112      0.090      1.008   ;
+   113       CTL2      1   CHYO    C24    113     -0.180     12.011   ;
+   114       HAL2      1   CHYO   H24R    114      0.090      1.008   ;
+   115       HAL2      1   CHYO   H24S    115      0.090      1.008   ;
+   116       CTL1      1   CHYO    C25    116     -0.090     12.011   ;
+   117       HAL1      1   CHYO    H25    117      0.090      1.008   ;
+   118       CTL3      1   CHYO    C26    118     -0.270     12.011   ;
+   119       HAL3      1   CHYO   H26R    119      0.090      1.008   ;
+   120       HAL3      1   CHYO   H26S    120      0.090      1.008   ;
+   121       HAL3      1   CHYO   H26T    121      0.090      1.008   ;
+   122       CTL3      1   CHYO    C27    122     -0.270     12.011   ;
+   123       HAL3      1   CHYO   H27R    123      0.090      1.008   ;
+   124       HAL3      1   CHYO   H27S    124      0.090      1.008   ;
+   125       HAL3      1   CHYO   H27T    125      0.090      1.008   ;
+
+[ bonds ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1     5	 1 ;        CTL3       CTL2
+    1     2	 1 ;        CTL3       HAL3
+    1     3	 1 ;        CTL3       HAL3
+    1     4	 1 ;        CTL3       HAL3
+    5     8	 1 ;        CTL2       CTL2
+    5     6	 1 ;        CTL2       HAL2
+    5     7	 1 ;        CTL2       HAL2
+    8    11	 1 ;        CTL2       CTL2
+    8     9	 1 ;        CTL2       HAL2
+    8    10	 1 ;        CTL2       HAL2
+   11    14	 1 ;        CTL2       CTL2
+   11    12	 1 ;        CTL2       HAL2
+   11    13	 1 ;        CTL2       HAL2
+   14    17	 1 ;        CTL2       CTL2
+   14    15	 1 ;        CTL2       HAL2
+   14    16	 1 ;        CTL2       HAL2
+   17    20	 1 ;        CTL2       CTL2
+   17    18	 1 ;        CTL2       HAL2
+   17    19	 1 ;        CTL2       HAL2
+   20    23	 1 ;        CTL2       CTL2
+   20    21	 1 ;        CTL2       HAL2
+   20    22	 1 ;        CTL2       HAL2
+   23    26	 1 ;        CTL2       CEL1
+   23    24	 1 ;        CTL2       HAL2
+   23    25	 1 ;        CTL2       HAL2
+   26    28	 1 ;        CEL1       CEL1
+   26    27	 1 ;        CEL1       HEL1
+   28    30	 1 ;        CEL1       CTL2
+   28    29	 1 ;        CEL1       HEL1
+   30    33	 1 ;        CTL2       CTL2
+   30    31	 1 ;        CTL2       HAL2
+   30    32	 1 ;        CTL2       HAL2
+   33    36	 1 ;        CTL2       CTL2
+   33    34	 1 ;        CTL2       HAL2
+   33    35	 1 ;        CTL2       HAL2
+   36    39	 1 ;        CTL2       CTL2
+   36    37	 1 ;        CTL2       HAL2
+   36    38	 1 ;        CTL2       HAL2
+   39    42	 1 ;        CTL2       CTL2
+   39    40	 1 ;        CTL2       HAL2
+   39    41	 1 ;        CTL2       HAL2
+   42    45	 1 ;        CTL2       CTL2
+   42    43	 1 ;        CTL2       HAL2
+   42    44	 1 ;        CTL2       HAL2
+   45    48	 1 ;        CTL2       CTL2
+   45    46	 1 ;        CTL2       HAL2
+   45    47	 1 ;        CTL2       HAL2
+   48    52	 1 ;        CTL2         CL
+   48    49	 1 ;        CTL2       HAL2
+   48    50	 1 ;        CTL2       HAL2
+   51    52	 1 ;         OSL         CL
+   51    54	 1 ;         OSL       CRL1
+   52    53	 1 ;          CL        OBL
+   54    55	 1 ;        CRL1       HGA1
+   54    98	 1 ;        CRL1       CRL2
+   54    56	 1 ;        CRL1       CRL2
+   56    57	 1 ;        CRL2       HGA2
+   56    58	 1 ;        CRL2       HGA2
+   56    59	 1 ;        CRL2       CEL1
+   59    90	 1 ;        CEL1       CRL1
+   59    60	 1 ;        CEL1       CEL1
+   60    61	 1 ;        CEL1       HEL1
+   60    62	 1 ;        CEL1       CRL2
+   62    63	 1 ;        CRL2       HGA2
+   62    64	 1 ;        CRL2       HGA2
+   62    65	 1 ;        CRL2       CRL1
+   65    66	 1 ;        CRL1       HGA1
+   65    88	 1 ;        CRL1       CRL1
+   65    67	 1 ;        CRL1       CRL1
+   67    68	 1 ;        CRL1       HGA1
+   67    77	 1 ;        CRL1       CRL1
+   67    69	 1 ;        CRL1       CRL2
+   69    70	 1 ;        CRL2       HGA2
+   69    71	 1 ;        CRL2       HGA2
+   69    72	 1 ;        CRL2       CRL2
+   72    73	 1 ;        CRL2       HGA2
+   72    74	 1 ;        CRL2       HGA2
+   72    75	 1 ;        CRL2       CRL1
+   75    76	 1 ;        CRL1       HGA1
+   75    77	 1 ;        CRL1       CRL1
+   75   101	 1 ;        CRL1       CTL1
+   77    82	 1 ;        CRL1       CRL2
+   77    78	 1 ;        CRL1       CTL3
+   78    79	 1 ;        CTL3       HAL3
+   78    80	 1 ;        CTL3       HAL3
+   78    81	 1 ;        CTL3       HAL3
+   82    83	 1 ;        CRL2       HGA2
+   82    84	 1 ;        CRL2       HGA2
+   82    85	 1 ;        CRL2       CRL2
+   85    86	 1 ;        CRL2       HGA2
+   85    87	 1 ;        CRL2       HGA2
+   85    88	 1 ;        CRL2       CRL1
+   88    89	 1 ;        CRL1       HGA1
+   88    90	 1 ;        CRL1       CRL1
+   90    95	 1 ;        CRL1       CRL2
+   90    91	 1 ;        CRL1       CTL3
+   91    92	 1 ;        CTL3       HAL3
+   91    93	 1 ;        CTL3       HAL3
+   91    94	 1 ;        CTL3       HAL3
+   95    98	 1 ;        CRL2       CRL2
+   95    96	 1 ;        CRL2       HGA2
+   95    97	 1 ;        CRL2       HGA2
+   98    99	 1 ;        CRL2       HGA2
+   98   100	 1 ;        CRL2       HGA2
+  101   102	 1 ;        CTL1       HAL1
+  101   103	 1 ;        CTL1       CTL3
+  101   107	 1 ;        CTL1       CTL2
+  103   104	 1 ;        CTL3       HAL3
+  103   105	 1 ;        CTL3       HAL3
+  103   106	 1 ;        CTL3       HAL3
+  107   108	 1 ;        CTL2       HAL2
+  107   109	 1 ;        CTL2       HAL2
+  107   110	 1 ;        CTL2       CTL2
+  110   111	 1 ;        CTL2       HAL2
+  110   112	 1 ;        CTL2       HAL2
+  110   113	 1 ;        CTL2       CTL2
+  113   114	 1 ;        CTL2       HAL2
+  113   115	 1 ;        CTL2       HAL2
+  113   116	 1 ;        CTL2       CTL1
+  116   117	 1 ;        CTL1       HAL1
+  116   118	 1 ;        CTL1       CTL3
+  116   122	 1 ;        CTL1       CTL3
+  118   119	 1 ;        CTL3       HAL3
+  118   120	 1 ;        CTL3       HAL3
+  118   121	 1 ;        CTL3       HAL3
+  122   123	 1 ;        CTL3       HAL3
+  122   124	 1 ;        CTL3       HAL3
+  122   125	 1 ;        CTL3       HAL3
+
+[ pairs ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1    11	 1
+    1     9	 1
+    1    10	 1
+    2     8	 1
+    2     6	 1
+    2     7	 1
+    3     8	 1
+    3     6	 1
+    3     7	 1
+    4     8	 1
+    4     6	 1
+    4     7	 1
+    5    14	 1
+    5    12	 1
+    5    13	 1
+    6    11	 1
+    6     9	 1
+    6    10	 1
+    7    11	 1
+    7     9	 1
+    7    10	 1
+    8    17	 1
+    8    15	 1
+    8    16	 1
+    9    14	 1
+    9    12	 1
+    9    13	 1
+   10    14	 1
+   10    12	 1
+   10    13	 1
+   11    20	 1
+   11    18	 1
+   11    19	 1
+   12    17	 1
+   12    15	 1
+   12    16	 1
+   13    17	 1
+   13    15	 1
+   13    16	 1
+   14    23	 1
+   14    21	 1
+   14    22	 1
+   15    20	 1
+   15    18	 1
+   15    19	 1
+   16    20	 1
+   16    18	 1
+   16    19	 1
+   17    26	 1
+   17    24	 1
+   17    25	 1
+   18    23	 1
+   18    21	 1
+   18    22	 1
+   19    23	 1
+   19    21	 1
+   19    22	 1
+   20    28	 1
+   20    27	 1
+   21    26	 1
+   21    24	 1
+   21    25	 1
+   22    26	 1
+   22    24	 1
+   22    25	 1
+   23    30	 1
+   23    29	 1
+   24    28	 1
+   24    27	 1
+   25    28	 1
+   25    27	 1
+   26    33	 1
+   26    31	 1
+   26    32	 1
+   27    30	 1
+   27    29	 1
+   28    36	 1
+   28    34	 1
+   28    35	 1
+   29    33	 1
+   29    31	 1
+   29    32	 1
+   30    39	 1
+   30    37	 1
+   30    38	 1
+   31    36	 1
+   31    34	 1
+   31    35	 1
+   32    36	 1
+   32    34	 1
+   32    35	 1
+   33    42	 1
+   33    40	 1
+   33    41	 1
+   34    39	 1
+   34    37	 1
+   34    38	 1
+   35    39	 1
+   35    37	 1
+   35    38	 1
+   36    45	 1
+   36    43	 1
+   36    44	 1
+   37    42	 1
+   37    40	 1
+   37    41	 1
+   38    42	 1
+   38    40	 1
+   38    41	 1
+   39    48	 1
+   39    46	 1
+   39    47	 1
+   40    45	 1
+   40    43	 1
+   40    44	 1
+   41    45	 1
+   41    43	 1
+   41    44	 1
+   42    52	 1
+   42    49	 1
+   42    50	 1
+   43    48	 1
+   43    46	 1
+   43    47	 1
+   44    48	 1
+   44    46	 1
+   44    47	 1
+   45    51	 1
+   45    53	 1
+   46    52	 1
+   46    49	 1
+   46    50	 1
+   47    52	 1
+   47    49	 1
+   47    50	 1
+   48    54	 1
+   49    51	 1
+   49    53	 1
+   50    51	 1
+   50    53	 1
+   51    99	 1
+   51   100	 1
+   51    95	 1
+   51    57	 1
+   51    58	 1
+   51    59	 1
+   52    55	 1
+   52    98	 1
+   52    56	 1
+   53    54	 1
+   54    90	 1
+   54    60	 1
+   54    96	 1
+   54    97	 1
+   55    99	 1
+   55   100	 1
+   55    95	 1
+   55    57	 1
+   55    58	 1
+   55    59	 1
+   56    99	 1
+   56   100	 1
+   56    95	 1
+   56    91	 1
+   56    88	 1
+   56    61	 1
+   56    62	 1
+   57    98	 1
+   57    90	 1
+   57    60	 1
+   58    98	 1
+   58    90	 1
+   58    60	 1
+   59    98	 1
+   59    63	 1
+   59    64	 1
+   59    65	 1
+   59    89	 1
+   59    85	 1
+   59    96	 1
+   59    97	 1
+   59    92	 1
+   59    93	 1
+   59    94	 1
+   60    95	 1
+   60    91	 1
+   60    88	 1
+   60    66	 1
+   60    67	 1
+   61    90	 1
+   61    63	 1
+   61    64	 1
+   61    65	 1
+   62    90	 1
+   62    89	 1
+   62    85	 1
+   62    68	 1
+   62    77	 1
+   62    69	 1
+   63    66	 1
+   63    88	 1
+   63    67	 1
+   64    66	 1
+   64    88	 1
+   64    67	 1
+   65    82	 1
+   65    78	 1
+   65    75	 1
+   65    70	 1
+   65    71	 1
+   65    72	 1
+   65    86	 1
+   65    87	 1
+   65    95	 1
+   65    91	 1
+   66    89	 1
+   66    90	 1
+   66    85	 1
+   66    68	 1
+   66    77	 1
+   66    69	 1
+   67    89	 1
+   67    90	 1
+   67    85	 1
+   67    73	 1
+   67    74	 1
+   67    76	 1
+   67   101	 1
+   67    83	 1
+   67    84	 1
+   67    79	 1
+   67    80	 1
+   67    81	 1
+   68    88	 1
+   68    82	 1
+   68    78	 1
+   68    75	 1
+   68    70	 1
+   68    71	 1
+   68    72	 1
+   69    88	 1
+   69    82	 1
+   69    78	 1
+   69    76	 1
+   69   101	 1
+   70    77	 1
+   70    73	 1
+   70    74	 1
+   70    75	 1
+   71    77	 1
+   71    73	 1
+   71    74	 1
+   71    75	 1
+   72    82	 1
+   72    78	 1
+   72   102	 1
+   72   103	 1
+   72   107	 1
+   73    76	 1
+   73    77	 1
+   73   101	 1
+   74    76	 1
+   74    77	 1
+   74   101	 1
+   75    83	 1
+   75    84	 1
+   75    85	 1
+   75    79	 1
+   75    80	 1
+   75    81	 1
+   75   104	 1
+   75   105	 1
+   75   106	 1
+   75   108	 1
+   75   109	 1
+   75   110	 1
+   76    82	 1
+   76    78	 1
+   76   102	 1
+   76   103	 1
+   76   107	 1
+   77    88	 1
+   77   102	 1
+   77   103	 1
+   77   107	 1
+   77    86	 1
+   77    87	 1
+   78   101	 1
+   78    83	 1
+   78    84	 1
+   78    85	 1
+   79    82	 1
+   80    82	 1
+   81    82	 1
+   82   101	 1
+   82    89	 1
+   82    90	 1
+   83    86	 1
+   83    87	 1
+   83    88	 1
+   84    86	 1
+   84    87	 1
+   84    88	 1
+   85    95	 1
+   85    91	 1
+   86    89	 1
+   86    90	 1
+   87    89	 1
+   87    90	 1
+   88    98	 1
+   88    96	 1
+   88    97	 1
+   88    92	 1
+   88    93	 1
+   88    94	 1
+   89    95	 1
+   89    91	 1
+   90    99	 1
+   90   100	 1
+   91    98	 1
+   91    96	 1
+   91    97	 1
+   92    95	 1
+   93    95	 1
+   94    95	 1
+   96    99	 1
+   96   100	 1
+   97    99	 1
+   97   100	 1
+  101   111	 1
+  101   112	 1
+  101   113	 1
+  102   104	 1
+  102   105	 1
+  102   106	 1
+  102   108	 1
+  102   109	 1
+  102   110	 1
+  103   108	 1
+  103   109	 1
+  103   110	 1
+  104   107	 1
+  105   107	 1
+  106   107	 1
+  107   114	 1
+  107   115	 1
+  107   116	 1
+  108   111	 1
+  108   112	 1
+  108   113	 1
+  109   111	 1
+  109   112	 1
+  109   113	 1
+  110   117	 1
+  110   118	 1
+  110   122	 1
+  111   114	 1
+  111   115	 1
+  111   116	 1
+  112   114	 1
+  112   115	 1
+  112   116	 1
+  113   119	 1
+  113   120	 1
+  113   121	 1
+  113   123	 1
+  113   124	 1
+  113   125	 1
+  114   117	 1
+  114   118	 1
+  114   122	 1
+  115   117	 1
+  115   118	 1
+  115   122	 1
+  117   119	 1
+  117   120	 1
+  117   121	 1
+  117   123	 1
+  117   124	 1
+  117   125	 1
+  118   123	 1
+  118   124	 1
+  118   125	 1
+  119   122	 1
+  120   122	 1
+  121   122	 1
+
+[ angles ]
+;	ai	  aj	ak funct			c0			  c1			c2			  c3
+    5     1     2	5 ;       CTL2       CTL3       HAL3
+    5     1     3	5 ;       CTL2       CTL3       HAL3
+    5     1     4	5 ;       CTL2       CTL3       HAL3
+    2     1     3	5 ;       HAL3       CTL3       HAL3
+    2     1     4	5 ;       HAL3       CTL3       HAL3
+    3     1     4	5 ;       HAL3       CTL3       HAL3
+    8     5     6	5 ;       CTL2       CTL2       HAL2
+    8     5     7	5 ;       CTL2       CTL2       HAL2
+    8     5     1	5 ;       CTL2       CTL2       CTL3
+    6     5     7	5 ;       HAL2       CTL2       HAL2
+    6     5     1	5 ;       HAL2       CTL2       CTL3
+    7     5     1	5 ;       HAL2       CTL2       CTL3
+   11     8     9	5 ;       CTL2       CTL2       HAL2
+   11     8    10	5 ;       CTL2       CTL2       HAL2
+   11     8     5	5 ;       CTL2       CTL2       CTL2
+    9     8    10	5 ;       HAL2       CTL2       HAL2
+    9     8     5	5 ;       HAL2       CTL2       CTL2
+   10     8     5	5 ;       HAL2       CTL2       CTL2
+   14    11    12	5 ;       CTL2       CTL2       HAL2
+   14    11    13	5 ;       CTL2       CTL2       HAL2
+   14    11     8	5 ;       CTL2       CTL2       CTL2
+   12    11    13	5 ;       HAL2       CTL2       HAL2
+   12    11     8	5 ;       HAL2       CTL2       CTL2
+   13    11     8	5 ;       HAL2       CTL2       CTL2
+   17    14    15	5 ;       CTL2       CTL2       HAL2
+   17    14    16	5 ;       CTL2       CTL2       HAL2
+   17    14    11	5 ;       CTL2       CTL2       CTL2
+   15    14    16	5 ;       HAL2       CTL2       HAL2
+   15    14    11	5 ;       HAL2       CTL2       CTL2
+   16    14    11	5 ;       HAL2       CTL2       CTL2
+   20    17    18	5 ;       CTL2       CTL2       HAL2
+   20    17    19	5 ;       CTL2       CTL2       HAL2
+   20    17    14	5 ;       CTL2       CTL2       CTL2
+   18    17    19	5 ;       HAL2       CTL2       HAL2
+   18    17    14	5 ;       HAL2       CTL2       CTL2
+   19    17    14	5 ;       HAL2       CTL2       CTL2
+   23    20    21	5 ;       CTL2       CTL2       HAL2
+   23    20    22	5 ;       CTL2       CTL2       HAL2
+   23    20    17	5 ;       CTL2       CTL2       CTL2
+   21    20    22	5 ;       HAL2       CTL2       HAL2
+   21    20    17	5 ;       HAL2       CTL2       CTL2
+   22    20    17	5 ;       HAL2       CTL2       CTL2
+   26    23    24	5 ;       CEL1       CTL2       HAL2
+   26    23    25	5 ;       CEL1       CTL2       HAL2
+   26    23    20	5 ;       CEL1       CTL2       CTL2
+   24    23    25	5 ;       HAL2       CTL2       HAL2
+   24    23    20	5 ;       HAL2       CTL2       CTL2
+   25    23    20	5 ;       HAL2       CTL2       CTL2
+   28    26    27	5 ;       CEL1       CEL1       HEL1
+   28    26    23	5 ;       CEL1       CEL1       CTL2
+   27    26    23	5 ;       HEL1       CEL1       CTL2
+   30    28    29	5 ;       CTL2       CEL1       HEL1
+   30    28    26	5 ;       CTL2       CEL1       CEL1
+   29    28    26	5 ;       HEL1       CEL1       CEL1
+   33    30    31	5 ;       CTL2       CTL2       HAL2
+   33    30    32	5 ;       CTL2       CTL2       HAL2
+   33    30    28	5 ;       CTL2       CTL2       CEL1
+   31    30    32	5 ;       HAL2       CTL2       HAL2
+   31    30    28	5 ;       HAL2       CTL2       CEL1
+   32    30    28	5 ;       HAL2       CTL2       CEL1
+   36    33    34	5 ;       CTL2       CTL2       HAL2
+   36    33    35	5 ;       CTL2       CTL2       HAL2
+   36    33    30	5 ;       CTL2       CTL2       CTL2
+   34    33    35	5 ;       HAL2       CTL2       HAL2
+   34    33    30	5 ;       HAL2       CTL2       CTL2
+   35    33    30	5 ;       HAL2       CTL2       CTL2
+   39    36    37	5 ;       CTL2       CTL2       HAL2
+   39    36    38	5 ;       CTL2       CTL2       HAL2
+   39    36    33	5 ;       CTL2       CTL2       CTL2
+   37    36    38	5 ;       HAL2       CTL2       HAL2
+   37    36    33	5 ;       HAL2       CTL2       CTL2
+   38    36    33	5 ;       HAL2       CTL2       CTL2
+   42    39    40	5 ;       CTL2       CTL2       HAL2
+   42    39    41	5 ;       CTL2       CTL2       HAL2
+   42    39    36	5 ;       CTL2       CTL2       CTL2
+   40    39    41	5 ;       HAL2       CTL2       HAL2
+   40    39    36	5 ;       HAL2       CTL2       CTL2
+   41    39    36	5 ;       HAL2       CTL2       CTL2
+   45    42    43	5 ;       CTL2       CTL2       HAL2
+   45    42    44	5 ;       CTL2       CTL2       HAL2
+   45    42    39	5 ;       CTL2       CTL2       CTL2
+   43    42    44	5 ;       HAL2       CTL2       HAL2
+   43    42    39	5 ;       HAL2       CTL2       CTL2
+   44    42    39	5 ;       HAL2       CTL2       CTL2
+   48    45    46	5 ;       CTL2       CTL2       HAL2
+   48    45    47	5 ;       CTL2       CTL2       HAL2
+   48    45    42	5 ;       CTL2       CTL2       CTL2
+   46    45    47	5 ;       HAL2       CTL2       HAL2
+   46    45    42	5 ;       HAL2       CTL2       CTL2
+   47    45    42	5 ;       HAL2       CTL2       CTL2
+   52    48    49	5 ;         CL       CTL2       HAL2
+   52    48    50	5 ;         CL       CTL2       HAL2
+   52    48    45	5 ;         CL       CTL2       CTL2
+   49    48    50	5 ;       HAL2       CTL2       HAL2
+   49    48    45	5 ;       HAL2       CTL2       CTL2
+   50    48    45	5 ;       HAL2       CTL2       CTL2
+   52    51    54	5 ;         CL        OSL       CRL1
+   51    52    48	5 ;        OSL         CL       CTL2
+   51    52    53	5 ;        OSL         CL        OBL
+   48    52    53	5 ;       CTL2         CL        OBL
+   51    54    55	5 ;        OSL       CRL1       HGA1
+   51    54    98	5 ;        OSL       CRL1       CRL2
+   51    54    56	5 ;        OSL       CRL1       CRL2
+   55    54    98	5 ;       HGA1       CRL1       CRL2
+   55    54    56	5 ;       HGA1       CRL1       CRL2
+   98    54    56	5 ;       CRL2       CRL1       CRL2
+   54    56    57	5 ;       CRL1       CRL2       HGA2
+   54    56    58	5 ;       CRL1       CRL2       HGA2
+   54    56    59	5 ;       CRL1       CRL2       CEL1
+   57    56    58	5 ;       HGA2       CRL2       HGA2
+   57    56    59	5 ;       HGA2       CRL2       CEL1
+   58    56    59	5 ;       HGA2       CRL2       CEL1
+   56    59    90	5 ;       CRL2       CEL1       CRL1
+   56    59    60	5 ;       CRL2       CEL1       CEL1
+   90    59    60	5 ;       CRL1       CEL1       CEL1
+   59    60    61	5 ;       CEL1       CEL1       HEL1
+   59    60    62	5 ;       CEL1       CEL1       CRL2
+   61    60    62	5 ;       HEL1       CEL1       CRL2
+   60    62    63	5 ;       CEL1       CRL2       HGA2
+   60    62    64	5 ;       CEL1       CRL2       HGA2
+   60    62    65	5 ;       CEL1       CRL2       CRL1
+   63    62    64	5 ;       HGA2       CRL2       HGA2
+   63    62    65	5 ;       HGA2       CRL2       CRL1
+   64    62    65	5 ;       HGA2       CRL2       CRL1
+   62    65    66	5 ;       CRL2       CRL1       HGA1
+   62    65    88	5 ;       CRL2       CRL1       CRL1
+   62    65    67	5 ;       CRL2       CRL1       CRL1
+   66    65    88	5 ;       HGA1       CRL1       CRL1
+   66    65    67	5 ;       HGA1       CRL1       CRL1
+   88    65    67	5 ;       CRL1       CRL1       CRL1
+   65    67    68	5 ;       CRL1       CRL1       HGA1
+   65    67    77	5 ;       CRL1       CRL1       CRL1
+   65    67    69	5 ;       CRL1       CRL1       CRL2
+   68    67    77	5 ;       HGA1       CRL1       CRL1
+   68    67    69	5 ;       HGA1       CRL1       CRL2
+   77    67    69	5 ;       CRL1       CRL1       CRL2
+   67    69    70	5 ;       CRL1       CRL2       HGA2
+   67    69    71	5 ;       CRL1       CRL2       HGA2
+   67    69    72	5 ;       CRL1       CRL2       CRL2
+   70    69    71	5 ;       HGA2       CRL2       HGA2
+   70    69    72	5 ;       HGA2       CRL2       CRL2
+   71    69    72	5 ;       HGA2       CRL2       CRL2
+   69    72    73	5 ;       CRL2       CRL2       HGA2
+   69    72    74	5 ;       CRL2       CRL2       HGA2
+   69    72    75	5 ;       CRL2       CRL2       CRL1
+   73    72    74	5 ;       HGA2       CRL2       HGA2
+   73    72    75	5 ;       HGA2       CRL2       CRL1
+   74    72    75	5 ;       HGA2       CRL2       CRL1
+   72    75    76	5 ;       CRL2       CRL1       HGA1
+   72    75    77	5 ;       CRL2       CRL1       CRL1
+   72    75   101	5 ;       CRL2       CRL1       CTL1
+   76    75    77	5 ;       HGA1       CRL1       CRL1
+   76    75   101	5 ;       HGA1       CRL1       CTL1
+   77    75   101	5 ;       CRL1       CRL1       CTL1
+   67    77    82	5 ;       CRL1       CRL1       CRL2
+   67    77    78	5 ;       CRL1       CRL1       CTL3
+   67    77    75	5 ;       CRL1       CRL1       CRL1
+   82    77    78	5 ;       CRL2       CRL1       CTL3
+   82    77    75	5 ;       CRL2       CRL1       CRL1
+   78    77    75	5 ;       CTL3       CRL1       CRL1
+   77    78    79	5 ;       CRL1       CTL3       HAL3
+   77    78    80	5 ;       CRL1       CTL3       HAL3
+   77    78    81	5 ;       CRL1       CTL3       HAL3
+   79    78    80	5 ;       HAL3       CTL3       HAL3
+   79    78    81	5 ;       HAL3       CTL3       HAL3
+   80    78    81	5 ;       HAL3       CTL3       HAL3
+   77    82    83	5 ;       CRL1       CRL2       HGA2
+   77    82    84	5 ;       CRL1       CRL2       HGA2
+   77    82    85	5 ;       CRL1       CRL2       CRL2
+   83    82    84	5 ;       HGA2       CRL2       HGA2
+   83    82    85	5 ;       HGA2       CRL2       CRL2
+   84    82    85	5 ;       HGA2       CRL2       CRL2
+   82    85    86	5 ;       CRL2       CRL2       HGA2
+   82    85    87	5 ;       CRL2       CRL2       HGA2
+   82    85    88	5 ;       CRL2       CRL2       CRL1
+   86    85    87	5 ;       HGA2       CRL2       HGA2
+   86    85    88	5 ;       HGA2       CRL2       CRL1
+   87    85    88	5 ;       HGA2       CRL2       CRL1
+   65    88    89	5 ;       CRL1       CRL1       HGA1
+   65    88    90	5 ;       CRL1       CRL1       CRL1
+   65    88    85	5 ;       CRL1       CRL1       CRL2
+   89    88    90	5 ;       HGA1       CRL1       CRL1
+   89    88    85	5 ;       HGA1       CRL1       CRL2
+   90    88    85	5 ;       CRL1       CRL1       CRL2
+   59    90    95	5 ;       CEL1       CRL1       CRL2
+   59    90    91	5 ;       CEL1       CRL1       CTL3
+   59    90    88	5 ;       CEL1       CRL1       CRL1
+   95    90    91	5 ;       CRL2       CRL1       CTL3
+   95    90    88	5 ;       CRL2       CRL1       CRL1
+   91    90    88	5 ;       CTL3       CRL1       CRL1
+   90    91    92	5 ;       CRL1       CTL3       HAL3
+   90    91    93	5 ;       CRL1       CTL3       HAL3
+   90    91    94	5 ;       CRL1       CTL3       HAL3
+   92    91    93	5 ;       HAL3       CTL3       HAL3
+   92    91    94	5 ;       HAL3       CTL3       HAL3
+   93    91    94	5 ;       HAL3       CTL3       HAL3
+   98    95    96	5 ;       CRL2       CRL2       HGA2
+   98    95    97	5 ;       CRL2       CRL2       HGA2
+   98    95    90	5 ;       CRL2       CRL2       CRL1
+   96    95    97	5 ;       HGA2       CRL2       HGA2
+   96    95    90	5 ;       HGA2       CRL2       CRL1
+   97    95    90	5 ;       HGA2       CRL2       CRL1
+   54    98    99	5 ;       CRL1       CRL2       HGA2
+   54    98   100	5 ;       CRL1       CRL2       HGA2
+   54    98    95	5 ;       CRL1       CRL2       CRL2
+   99    98   100	5 ;       HGA2       CRL2       HGA2
+   99    98    95	5 ;       HGA2       CRL2       CRL2
+  100    98    95	5 ;       HGA2       CRL2       CRL2
+   75   101   102	5 ;       CRL1       CTL1       HAL1
+   75   101   103	5 ;       CRL1       CTL1       CTL3
+   75   101   107	5 ;       CRL1       CTL1       CTL2
+  102   101   103	5 ;       HAL1       CTL1       CTL3
+  102   101   107	5 ;       HAL1       CTL1       CTL2
+  103   101   107	5 ;       CTL3       CTL1       CTL2
+  101   103   104	5 ;       CTL1       CTL3       HAL3
+  101   103   105	5 ;       CTL1       CTL3       HAL3
+  101   103   106	5 ;       CTL1       CTL3       HAL3
+  104   103   105	5 ;       HAL3       CTL3       HAL3
+  104   103   106	5 ;       HAL3       CTL3       HAL3
+  105   103   106	5 ;       HAL3       CTL3       HAL3
+  101   107   108	5 ;       CTL1       CTL2       HAL2
+  101   107   109	5 ;       CTL1       CTL2       HAL2
+  101   107   110	5 ;       CTL1       CTL2       CTL2
+  108   107   109	5 ;       HAL2       CTL2       HAL2
+  108   107   110	5 ;       HAL2       CTL2       CTL2
+  109   107   110	5 ;       HAL2       CTL2       CTL2
+  107   110   111	5 ;       CTL2       CTL2       HAL2
+  107   110   112	5 ;       CTL2       CTL2       HAL2
+  107   110   113	5 ;       CTL2       CTL2       CTL2
+  111   110   112	5 ;       HAL2       CTL2       HAL2
+  111   110   113	5 ;       HAL2       CTL2       CTL2
+  112   110   113	5 ;       HAL2       CTL2       CTL2
+  110   113   114	5 ;       CTL2       CTL2       HAL2
+  110   113   115	5 ;       CTL2       CTL2       HAL2
+  110   113   116	5 ;       CTL2       CTL2       CTL1
+  114   113   115	5 ;       HAL2       CTL2       HAL2
+  114   113   116	5 ;       HAL2       CTL2       CTL1
+  115   113   116	5 ;       HAL2       CTL2       CTL1
+  113   116   117	5 ;       CTL2       CTL1       HAL1
+  113   116   118	5 ;       CTL2       CTL1       CTL3
+  113   116   122	5 ;       CTL2       CTL1       CTL3
+  117   116   118	5 ;       HAL1       CTL1       CTL3
+  117   116   122	5 ;       HAL1       CTL1       CTL3
+  118   116   122	5 ;       CTL3       CTL1       CTL3
+  116   118   119	5 ;       CTL1       CTL3       HAL3
+  116   118   120	5 ;       CTL1       CTL3       HAL3
+  116   118   121	5 ;       CTL1       CTL3       HAL3
+  119   118   120	5 ;       HAL3       CTL3       HAL3
+  119   118   121	5 ;       HAL3       CTL3       HAL3
+  120   118   121	5 ;       HAL3       CTL3       HAL3
+  116   122   123	5 ;       CTL1       CTL3       HAL3
+  116   122   124	5 ;       CTL1       CTL3       HAL3
+  116   122   125	5 ;       CTL1       CTL3       HAL3
+  123   122   124	5 ;       HAL3       CTL3       HAL3
+  123   122   125	5 ;       HAL3       CTL3       HAL3
+  124   122   125	5 ;       HAL3       CTL3       HAL3
+
+[ dihedrals ]
+;	ai	  aj	ak	  al funct			  c0			c1			  c2			c3			  c4			c5
+    2     1     5     8	 9 ;       HAL3       CTL3       CTL2       CTL2
+    2     1     5     6	 9 ;       HAL3       CTL3       CTL2       HAL2
+    2     1     5     7	 9 ;       HAL3       CTL3       CTL2       HAL2
+    3     1     5     8	 9 ;       HAL3       CTL3       CTL2       CTL2
+    3     1     5     6	 9 ;       HAL3       CTL3       CTL2       HAL2
+    3     1     5     7	 9 ;       HAL3       CTL3       CTL2       HAL2
+    4     1     5     8	 9 ;       HAL3       CTL3       CTL2       CTL2
+    4     1     5     6	 9 ;       HAL3       CTL3       CTL2       HAL2
+    4     1     5     7	 9 ;       HAL3       CTL3       CTL2       HAL2
+    6     5     8    11	 9 ;       HAL2       CTL2       CTL2       CTL2
+    6     5     8     9	 9 ;       HAL2       CTL2       CTL2       HAL2
+    6     5     8    10	 9 ;       HAL2       CTL2       CTL2       HAL2
+    7     5     8    11	 9 ;       HAL2       CTL2       CTL2       CTL2
+    7     5     8     9	 9 ;       HAL2       CTL2       CTL2       HAL2
+    7     5     8    10	 9 ;       HAL2       CTL2       CTL2       HAL2
+    1     5     8    11	 9 ;       CTL3       CTL2       CTL2       CTL2
+    1     5     8     9	 9 ;       CTL3       CTL2       CTL2       HAL2
+    1     5     8    10	 9 ;       CTL3       CTL2       CTL2       HAL2
+    9     8    11    14	 9 ;       HAL2       CTL2       CTL2       CTL2
+    9     8    11    12	 9 ;       HAL2       CTL2       CTL2       HAL2
+    9     8    11    13	 9 ;       HAL2       CTL2       CTL2       HAL2
+   10     8    11    14	 9 ;       HAL2       CTL2       CTL2       CTL2
+   10     8    11    12	 9 ;       HAL2       CTL2       CTL2       HAL2
+   10     8    11    13	 9 ;       HAL2       CTL2       CTL2       HAL2
+    5     8    11    14	 9 ;       CTL2       CTL2       CTL2       CTL2
+    5     8    11    12	 9 ;       CTL2       CTL2       CTL2       HAL2
+    5     8    11    13	 9 ;       CTL2       CTL2       CTL2       HAL2
+   12    11    14    17	 9 ;       HAL2       CTL2       CTL2       CTL2
+   12    11    14    15	 9 ;       HAL2       CTL2       CTL2       HAL2
+   12    11    14    16	 9 ;       HAL2       CTL2       CTL2       HAL2
+   13    11    14    17	 9 ;       HAL2       CTL2       CTL2       CTL2
+   13    11    14    15	 9 ;       HAL2       CTL2       CTL2       HAL2
+   13    11    14    16	 9 ;       HAL2       CTL2       CTL2       HAL2
+    8    11    14    17	 9 ;       CTL2       CTL2       CTL2       CTL2
+    8    11    14    15	 9 ;       CTL2       CTL2       CTL2       HAL2
+    8    11    14    16	 9 ;       CTL2       CTL2       CTL2       HAL2
+   15    14    17    20	 9 ;       HAL2       CTL2       CTL2       CTL2
+   15    14    17    18	 9 ;       HAL2       CTL2       CTL2       HAL2
+   15    14    17    19	 9 ;       HAL2       CTL2       CTL2       HAL2
+   16    14    17    20	 9 ;       HAL2       CTL2       CTL2       CTL2
+   16    14    17    18	 9 ;       HAL2       CTL2       CTL2       HAL2
+   16    14    17    19	 9 ;       HAL2       CTL2       CTL2       HAL2
+   11    14    17    20	 9 ;       CTL2       CTL2       CTL2       CTL2
+   11    14    17    18	 9 ;       CTL2       CTL2       CTL2       HAL2
+   11    14    17    19	 9 ;       CTL2       CTL2       CTL2       HAL2
+   18    17    20    23	 9 ;       HAL2       CTL2       CTL2       CTL2
+   18    17    20    21	 9 ;       HAL2       CTL2       CTL2       HAL2
+   18    17    20    22	 9 ;       HAL2       CTL2       CTL2       HAL2
+   19    17    20    23	 9 ;       HAL2       CTL2       CTL2       CTL2
+   19    17    20    21	 9 ;       HAL2       CTL2       CTL2       HAL2
+   19    17    20    22	 9 ;       HAL2       CTL2       CTL2       HAL2
+   14    17    20    23	 9 ;       CTL2       CTL2       CTL2       CTL2
+   14    17    20    21	 9 ;       CTL2       CTL2       CTL2       HAL2
+   14    17    20    22	 9 ;       CTL2       CTL2       CTL2       HAL2
+   21    20    23    26	 9 ;       HAL2       CTL2       CTL2       CEL1
+   21    20    23    24	 9 ;       HAL2       CTL2       CTL2       HAL2
+   21    20    23    25	 9 ;       HAL2       CTL2       CTL2       HAL2
+   22    20    23    26	 9 ;       HAL2       CTL2       CTL2       CEL1
+   22    20    23    24	 9 ;       HAL2       CTL2       CTL2       HAL2
+   22    20    23    25	 9 ;       HAL2       CTL2       CTL2       HAL2
+   17    20    23    26	 9 ;       CTL2       CTL2       CTL2       CEL1
+   17    20    23    24	 9 ;       CTL2       CTL2       CTL2       HAL2
+   17    20    23    25	 9 ;       CTL2       CTL2       CTL2       HAL2
+   24    23    26    28	 9 ;       HAL2       CTL2       CEL1       CEL1
+   24    23    26    27	 9 ;       HAL2       CTL2       CEL1       HEL1
+   25    23    26    28	 9 ;       HAL2       CTL2       CEL1       CEL1
+   25    23    26    27	 9 ;       HAL2       CTL2       CEL1       HEL1
+   20    23    26    28	 9 ;       CTL2       CTL2       CEL1       CEL1
+   20    23    26    27	 9 ;       CTL2       CTL2       CEL1       HEL1
+   27    26    28    30	 9 ;       HEL1       CEL1       CEL1       CTL2
+   27    26    28    29	 9 ;       HEL1       CEL1       CEL1       HEL1
+   23    26    28    30	 9 ;       CTL2       CEL1       CEL1       CTL2
+   23    26    28    29	 9 ;       CTL2       CEL1       CEL1       HEL1
+   29    28    30    33	 9 ;       HEL1       CEL1       CTL2       CTL2
+   29    28    30    31	 9 ;       HEL1       CEL1       CTL2       HAL2
+   29    28    30    32	 9 ;       HEL1       CEL1       CTL2       HAL2
+   26    28    30    33	 9 ;       CEL1       CEL1       CTL2       CTL2
+   26    28    30    31	 9 ;       CEL1       CEL1       CTL2       HAL2
+   26    28    30    32	 9 ;       CEL1       CEL1       CTL2       HAL2
+   31    30    33    36	 9 ;       HAL2       CTL2       CTL2       CTL2
+   31    30    33    34	 9 ;       HAL2       CTL2       CTL2       HAL2
+   31    30    33    35	 9 ;       HAL2       CTL2       CTL2       HAL2
+   32    30    33    36	 9 ;       HAL2       CTL2       CTL2       CTL2
+   32    30    33    34	 9 ;       HAL2       CTL2       CTL2       HAL2
+   32    30    33    35	 9 ;       HAL2       CTL2       CTL2       HAL2
+   28    30    33    36	 9 ;       CEL1       CTL2       CTL2       CTL2
+   28    30    33    34	 9 ;       CEL1       CTL2       CTL2       HAL2
+   28    30    33    35	 9 ;       CEL1       CTL2       CTL2       HAL2
+   34    33    36    39	 9 ;       HAL2       CTL2       CTL2       CTL2
+   34    33    36    37	 9 ;       HAL2       CTL2       CTL2       HAL2
+   34    33    36    38	 9 ;       HAL2       CTL2       CTL2       HAL2
+   35    33    36    39	 9 ;       HAL2       CTL2       CTL2       CTL2
+   35    33    36    37	 9 ;       HAL2       CTL2       CTL2       HAL2
+   35    33    36    38	 9 ;       HAL2       CTL2       CTL2       HAL2
+   30    33    36    39	 9 ;       CTL2       CTL2       CTL2       CTL2
+   30    33    36    37	 9 ;       CTL2       CTL2       CTL2       HAL2
+   30    33    36    38	 9 ;       CTL2       CTL2       CTL2       HAL2
+   37    36    39    42	 9 ;       HAL2       CTL2       CTL2       CTL2
+   37    36    39    40	 9 ;       HAL2       CTL2       CTL2       HAL2
+   37    36    39    41	 9 ;       HAL2       CTL2       CTL2       HAL2
+   38    36    39    42	 9 ;       HAL2       CTL2       CTL2       CTL2
+   38    36    39    40	 9 ;       HAL2       CTL2       CTL2       HAL2
+   38    36    39    41	 9 ;       HAL2       CTL2       CTL2       HAL2
+   33    36    39    42	 9 ;       CTL2       CTL2       CTL2       CTL2
+   33    36    39    40	 9 ;       CTL2       CTL2       CTL2       HAL2
+   33    36    39    41	 9 ;       CTL2       CTL2       CTL2       HAL2
+   40    39    42    45	 9 ;       HAL2       CTL2       CTL2       CTL2
+   40    39    42    43	 9 ;       HAL2       CTL2       CTL2       HAL2
+   40    39    42    44	 9 ;       HAL2       CTL2       CTL2       HAL2
+   41    39    42    45	 9 ;       HAL2       CTL2       CTL2       CTL2
+   41    39    42    43	 9 ;       HAL2       CTL2       CTL2       HAL2
+   41    39    42    44	 9 ;       HAL2       CTL2       CTL2       HAL2
+   36    39    42    45	 9 ;       CTL2       CTL2       CTL2       CTL2
+   36    39    42    43	 9 ;       CTL2       CTL2       CTL2       HAL2
+   36    39    42    44	 9 ;       CTL2       CTL2       CTL2       HAL2
+   43    42    45    48	 9 ;       HAL2       CTL2       CTL2       CTL2
+   43    42    45    46	 9 ;       HAL2       CTL2       CTL2       HAL2
+   43    42    45    47	 9 ;       HAL2       CTL2       CTL2       HAL2
+   44    42    45    48	 9 ;       HAL2       CTL2       CTL2       CTL2
+   44    42    45    46	 9 ;       HAL2       CTL2       CTL2       HAL2
+   44    42    45    47	 9 ;       HAL2       CTL2       CTL2       HAL2
+   39    42    45    48	 9 ;       CTL2       CTL2       CTL2       CTL2
+   39    42    45    46	 9 ;       CTL2       CTL2       CTL2       HAL2
+   39    42    45    47	 9 ;       CTL2       CTL2       CTL2       HAL2
+   46    45    48    52	 9 ;       HAL2       CTL2       CTL2         CL
+   46    45    48    49	 9 ;       HAL2       CTL2       CTL2       HAL2
+   46    45    48    50	 9 ;       HAL2       CTL2       CTL2       HAL2
+   47    45    48    52	 9 ;       HAL2       CTL2       CTL2         CL
+   47    45    48    49	 9 ;       HAL2       CTL2       CTL2       HAL2
+   47    45    48    50	 9 ;       HAL2       CTL2       CTL2       HAL2
+   42    45    48    52	 9 ;       CTL2       CTL2       CTL2         CL
+   42    45    48    49	 9 ;       CTL2       CTL2       CTL2       HAL2
+   42    45    48    50	 9 ;       CTL2       CTL2       CTL2       HAL2
+   49    48    52    51	 9 ;       HAL2       CTL2         CL        OSL
+   49    48    52    53	 9 ;       HAL2       CTL2         CL        OBL
+   50    48    52    51	 9 ;       HAL2       CTL2         CL        OSL
+   50    48    52    53	 9 ;       HAL2       CTL2         CL        OBL
+   45    48    52    51	 9 ;       CTL2       CTL2         CL        OSL
+   45    48    52    53	 9 ;       CTL2       CTL2         CL        OBL
+   54    51    52    48	 9 ;       CRL1        OSL         CL       CTL2
+   54    51    52    53	 9 ;       CRL1        OSL         CL        OBL
+   52    51    54    55	 9 ;         CL        OSL       CRL1       HGA1
+   52    51    54    98	 9 ;         CL        OSL       CRL1       CRL2
+   52    51    54    56	 9 ;         CL        OSL       CRL1       CRL2
+   51    54    98    99	 9 ;        OSL       CRL1       CRL2       HGA2
+   51    54    98   100	 9 ;        OSL       CRL1       CRL2       HGA2
+   51    54    98    95	 9 ;        OSL       CRL1       CRL2       CRL2
+   55    54    98    99	 9 ;       HGA1       CRL1       CRL2       HGA2
+   55    54    98   100	 9 ;       HGA1       CRL1       CRL2       HGA2
+   55    54    98    95	 9 ;       HGA1       CRL1       CRL2       CRL2
+   56    54    98    99	 9 ;       CRL2       CRL1       CRL2       HGA2
+   56    54    98   100	 9 ;       CRL2       CRL1       CRL2       HGA2
+   56    54    98    95	 9 ;       CRL2       CRL1       CRL2       CRL2
+   51    54    56    57	 9 ;        OSL       CRL1       CRL2       HGA2
+   51    54    56    58	 9 ;        OSL       CRL1       CRL2       HGA2
+   51    54    56    59	 9 ;        OSL       CRL1       CRL2       CEL1
+   55    54    56    57	 9 ;       HGA1       CRL1       CRL2       HGA2
+   55    54    56    58	 9 ;       HGA1       CRL1       CRL2       HGA2
+   55    54    56    59	 9 ;       HGA1       CRL1       CRL2       CEL1
+   98    54    56    57	 9 ;       CRL2       CRL1       CRL2       HGA2
+   98    54    56    58	 9 ;       CRL2       CRL1       CRL2       HGA2
+   98    54    56    59	 9 ;       CRL2       CRL1       CRL2       CEL1
+   54    56    59    90	 9 ;       CRL1       CRL2       CEL1       CRL1
+   54    56    59    60	 9 ;       CRL1       CRL2       CEL1       CEL1
+   57    56    59    90	 9 ;       HGA2       CRL2       CEL1       CRL1
+   57    56    59    60	 9 ;       HGA2       CRL2       CEL1       CEL1
+   58    56    59    90	 9 ;       HGA2       CRL2       CEL1       CRL1
+   58    56    59    60	 9 ;       HGA2       CRL2       CEL1       CEL1
+   56    59    90    95	 9 ;       CRL2       CEL1       CRL1       CRL2
+   56    59    90    91	 9 ;       CRL2       CEL1       CRL1       CTL3
+   56    59    90    88	 9 ;       CRL2       CEL1       CRL1       CRL1
+   60    59    90    95	 9 ;       CEL1       CEL1       CRL1       CRL2
+   60    59    90    91	 9 ;       CEL1       CEL1       CRL1       CTL3
+   60    59    90    88	 9 ;       CEL1       CEL1       CRL1       CRL1
+   56    59    60    61	 9 ;       CRL2       CEL1       CEL1       HEL1
+   56    59    60    62	 9 ;       CRL2       CEL1       CEL1       CRL2
+   90    59    60    61	 9 ;       CRL1       CEL1       CEL1       HEL1
+   90    59    60    62	 9 ;       CRL1       CEL1       CEL1       CRL2
+   59    60    62    63	 9 ;       CEL1       CEL1       CRL2       HGA2
+   59    60    62    64	 9 ;       CEL1       CEL1       CRL2       HGA2
+   59    60    62    65	 9 ;       CEL1       CEL1       CRL2       CRL1
+   61    60    62    63	 9 ;       HEL1       CEL1       CRL2       HGA2
+   61    60    62    64	 9 ;       HEL1       CEL1       CRL2       HGA2
+   61    60    62    65	 9 ;       HEL1       CEL1       CRL2       CRL1
+   60    62    65    66	 9 ;       CEL1       CRL2       CRL1       HGA1
+   60    62    65    88	 9 ;       CEL1       CRL2       CRL1       CRL1
+   60    62    65    67	 9 ;       CEL1       CRL2       CRL1       CRL1
+   63    62    65    66	 9 ;       HGA2       CRL2       CRL1       HGA1
+   63    62    65    88	 9 ;       HGA2       CRL2       CRL1       CRL1
+   63    62    65    67	 9 ;       HGA2       CRL2       CRL1       CRL1
+   64    62    65    66	 9 ;       HGA2       CRL2       CRL1       HGA1
+   64    62    65    88	 9 ;       HGA2       CRL2       CRL1       CRL1
+   64    62    65    67	 9 ;       HGA2       CRL2       CRL1       CRL1
+   62    65    88    89	 9 ;       CRL2       CRL1       CRL1       HGA1
+   62    65    88    90	 9 ;       CRL2       CRL1       CRL1       CRL1
+   62    65    88    85	 9 ;       CRL2       CRL1       CRL1       CRL2
+   66    65    88    89	 9 ;       HGA1       CRL1       CRL1       HGA1
+   66    65    88    90	 9 ;       HGA1       CRL1       CRL1       CRL1
+   66    65    88    85	 9 ;       HGA1       CRL1       CRL1       CRL2
+   67    65    88    89	 9 ;       CRL1       CRL1       CRL1       HGA1
+   67    65    88    90	 9 ;       CRL1       CRL1       CRL1       CRL1
+   67    65    88    85	 9 ;       CRL1       CRL1       CRL1       CRL2
+   62    65    67    68	 9 ;       CRL2       CRL1       CRL1       HGA1
+   62    65    67    77	 9 ;       CRL2       CRL1       CRL1       CRL1
+   62    65    67    69	 9 ;       CRL2       CRL1       CRL1       CRL2
+   66    65    67    68	 9 ;       HGA1       CRL1       CRL1       HGA1
+   66    65    67    77	 9 ;       HGA1       CRL1       CRL1       CRL1
+   66    65    67    69	 9 ;       HGA1       CRL1       CRL1       CRL2
+   88    65    67    68	 9 ;       CRL1       CRL1       CRL1       HGA1
+   88    65    67    77	 9 ;       CRL1       CRL1       CRL1       CRL1
+   88    65    67    69	 9 ;       CRL1       CRL1       CRL1       CRL2
+   65    67    77    82	 9 ;       CRL1       CRL1       CRL1       CRL2
+   65    67    77    78	 9 ;       CRL1       CRL1       CRL1       CTL3
+   65    67    77    75	 9 ;       CRL1       CRL1       CRL1       CRL1
+   68    67    77    82	 9 ;       HGA1       CRL1       CRL1       CRL2
+   68    67    77    78	 9 ;       HGA1       CRL1       CRL1       CTL3
+   68    67    77    75	 9 ;       HGA1       CRL1       CRL1       CRL1
+   69    67    77    82	 9 ;       CRL2       CRL1       CRL1       CRL2
+   69    67    77    78	 9 ;       CRL2       CRL1       CRL1       CTL3
+   69    67    77    75	 9 ;       CRL2       CRL1       CRL1       CRL1
+   65    67    69    70	 9 ;       CRL1       CRL1       CRL2       HGA2
+   65    67    69    71	 9 ;       CRL1       CRL1       CRL2       HGA2
+   65    67    69    72	 9 ;       CRL1       CRL1       CRL2       CRL2
+   68    67    69    70	 9 ;       HGA1       CRL1       CRL2       HGA2
+   68    67    69    71	 9 ;       HGA1       CRL1       CRL2       HGA2
+   68    67    69    72	 9 ;       HGA1       CRL1       CRL2       CRL2
+   77    67    69    70	 9 ;       CRL1       CRL1       CRL2       HGA2
+   77    67    69    71	 9 ;       CRL1       CRL1       CRL2       HGA2
+   77    67    69    72	 9 ;       CRL1       CRL1       CRL2       CRL2
+   67    69    72    73	 9 ;       CRL1       CRL2       CRL2       HGA2
+   67    69    72    74	 9 ;       CRL1       CRL2       CRL2       HGA2
+   67    69    72    75	 9 ;       CRL1       CRL2       CRL2       CRL1
+   70    69    72    73	 9 ;       HGA2       CRL2       CRL2       HGA2
+   70    69    72    74	 9 ;       HGA2       CRL2       CRL2       HGA2
+   70    69    72    75	 9 ;       HGA2       CRL2       CRL2       CRL1
+   71    69    72    73	 9 ;       HGA2       CRL2       CRL2       HGA2
+   71    69    72    74	 9 ;       HGA2       CRL2       CRL2       HGA2
+   71    69    72    75	 9 ;       HGA2       CRL2       CRL2       CRL1
+   69    72    75    76	 9 ;       CRL2       CRL2       CRL1       HGA1
+   69    72    75    77	 9 ;       CRL2       CRL2       CRL1       CRL1
+   69    72    75   101	 9 ;       CRL2       CRL2       CRL1       CTL1
+   73    72    75    76	 9 ;       HGA2       CRL2       CRL1       HGA1
+   73    72    75    77	 9 ;       HGA2       CRL2       CRL1       CRL1
+   73    72    75   101	 9 ;       HGA2       CRL2       CRL1       CTL1
+   74    72    75    76	 9 ;       HGA2       CRL2       CRL1       HGA1
+   74    72    75    77	 9 ;       HGA2       CRL2       CRL1       CRL1
+   74    72    75   101	 9 ;       HGA2       CRL2       CRL1       CTL1
+   72    75    77    67	 9 ;       CRL2       CRL1       CRL1       CRL1
+   72    75    77    82	 9 ;       CRL2       CRL1       CRL1       CRL2
+   72    75    77    78	 9 ;       CRL2       CRL1       CRL1       CTL3
+   76    75    77    67	 9 ;       HGA1       CRL1       CRL1       CRL1
+   76    75    77    82	 9 ;       HGA1       CRL1       CRL1       CRL2
+   76    75    77    78	 9 ;       HGA1       CRL1       CRL1       CTL3
+  101    75    77    67	 9 ;       CTL1       CRL1       CRL1       CRL1
+  101    75    77    82	 9 ;       CTL1       CRL1       CRL1       CRL2
+  101    75    77    78	 9 ;       CTL1       CRL1       CRL1       CTL3
+   72    75   101   102	 9 ;       CRL2       CRL1       CTL1       HAL1
+   72    75   101   103	 9 ;       CRL2       CRL1       CTL1       CTL3
+   72    75   101   107	 9 ;       CRL2       CRL1       CTL1       CTL2
+   76    75   101   102	 9 ;       HGA1       CRL1       CTL1       HAL1
+   76    75   101   103	 9 ;       HGA1       CRL1       CTL1       CTL3
+   76    75   101   107	 9 ;       HGA1       CRL1       CTL1       CTL2
+   77    75   101   102	 9 ;       CRL1       CRL1       CTL1       HAL1
+   77    75   101   103	 9 ;       CRL1       CRL1       CTL1       CTL3
+   77    75   101   107	 9 ;       CRL1       CRL1       CTL1       CTL2
+   67    77    82    83	 9 ;       CRL1       CRL1       CRL2       HGA2
+   67    77    82    84	 9 ;       CRL1       CRL1       CRL2       HGA2
+   67    77    82    85	 9 ;       CRL1       CRL1       CRL2       CRL2
+   78    77    82    83	 9 ;       CTL3       CRL1       CRL2       HGA2
+   78    77    82    84	 9 ;       CTL3       CRL1       CRL2       HGA2
+   78    77    82    85	 9 ;       CTL3       CRL1       CRL2       CRL2
+   75    77    82    83	 9 ;       CRL1       CRL1       CRL2       HGA2
+   75    77    82    84	 9 ;       CRL1       CRL1       CRL2       HGA2
+   75    77    82    85	 9 ;       CRL1       CRL1       CRL2       CRL2
+   67    77    78    79	 9 ;       CRL1       CRL1       CTL3       HAL3
+   67    77    78    80	 9 ;       CRL1       CRL1       CTL3       HAL3
+   67    77    78    81	 9 ;       CRL1       CRL1       CTL3       HAL3
+   82    77    78    79	 9 ;       CRL2       CRL1       CTL3       HAL3
+   82    77    78    80	 9 ;       CRL2       CRL1       CTL3       HAL3
+   82    77    78    81	 9 ;       CRL2       CRL1       CTL3       HAL3
+   75    77    78    79	 9 ;       CRL1       CRL1       CTL3       HAL3
+   75    77    78    80	 9 ;       CRL1       CRL1       CTL3       HAL3
+   75    77    78    81	 9 ;       CRL1       CRL1       CTL3       HAL3
+   77    82    85    86	 9 ;       CRL1       CRL2       CRL2       HGA2
+   77    82    85    87	 9 ;       CRL1       CRL2       CRL2       HGA2
+   77    82    85    88	 9 ;       CRL1       CRL2       CRL2       CRL1
+   83    82    85    86	 9 ;       HGA2       CRL2       CRL2       HGA2
+   83    82    85    87	 9 ;       HGA2       CRL2       CRL2       HGA2
+   83    82    85    88	 9 ;       HGA2       CRL2       CRL2       CRL1
+   84    82    85    86	 9 ;       HGA2       CRL2       CRL2       HGA2
+   84    82    85    87	 9 ;       HGA2       CRL2       CRL2       HGA2
+   84    82    85    88	 9 ;       HGA2       CRL2       CRL2       CRL1
+   82    85    88    65	 9 ;       CRL2       CRL2       CRL1       CRL1
+   82    85    88    89	 9 ;       CRL2       CRL2       CRL1       HGA1
+   82    85    88    90	 9 ;       CRL2       CRL2       CRL1       CRL1
+   86    85    88    65	 9 ;       HGA2       CRL2       CRL1       CRL1
+   86    85    88    89	 9 ;       HGA2       CRL2       CRL1       HGA1
+   86    85    88    90	 9 ;       HGA2       CRL2       CRL1       CRL1
+   87    85    88    65	 9 ;       HGA2       CRL2       CRL1       CRL1
+   87    85    88    89	 9 ;       HGA2       CRL2       CRL1       HGA1
+   87    85    88    90	 9 ;       HGA2       CRL2       CRL1       CRL1
+   65    88    90    59	 9 ;       CRL1       CRL1       CRL1       CEL1
+   65    88    90    95	 9 ;       CRL1       CRL1       CRL1       CRL2
+   65    88    90    91	 9 ;       CRL1       CRL1       CRL1       CTL3
+   89    88    90    59	 9 ;       HGA1       CRL1       CRL1       CEL1
+   89    88    90    95	 9 ;       HGA1       CRL1       CRL1       CRL2
+   89    88    90    91	 9 ;       HGA1       CRL1       CRL1       CTL3
+   85    88    90    59	 9 ;       CRL2       CRL1       CRL1       CEL1
+   85    88    90    95	 9 ;       CRL2       CRL1       CRL1       CRL2
+   85    88    90    91	 9 ;       CRL2       CRL1       CRL1       CTL3
+   59    90    95    98	 9 ;       CEL1       CRL1       CRL2       CRL2
+   59    90    95    96	 9 ;       CEL1       CRL1       CRL2       HGA2
+   59    90    95    97	 9 ;       CEL1       CRL1       CRL2       HGA2
+   91    90    95    98	 9 ;       CTL3       CRL1       CRL2       CRL2
+   91    90    95    96	 9 ;       CTL3       CRL1       CRL2       HGA2
+   91    90    95    97	 9 ;       CTL3       CRL1       CRL2       HGA2
+   88    90    95    98	 9 ;       CRL1       CRL1       CRL2       CRL2
+   88    90    95    96	 9 ;       CRL1       CRL1       CRL2       HGA2
+   88    90    95    97	 9 ;       CRL1       CRL1       CRL2       HGA2
+   59    90    91    92	 9 ;       CEL1       CRL1       CTL3       HAL3
+   59    90    91    93	 9 ;       CEL1       CRL1       CTL3       HAL3
+   59    90    91    94	 9 ;       CEL1       CRL1       CTL3       HAL3
+   95    90    91    92	 9 ;       CRL2       CRL1       CTL3       HAL3
+   95    90    91    93	 9 ;       CRL2       CRL1       CTL3       HAL3
+   95    90    91    94	 9 ;       CRL2       CRL1       CTL3       HAL3
+   88    90    91    92	 9 ;       CRL1       CRL1       CTL3       HAL3
+   88    90    91    93	 9 ;       CRL1       CRL1       CTL3       HAL3
+   88    90    91    94	 9 ;       CRL1       CRL1       CTL3       HAL3
+   96    95    98    54	 9 ;       HGA2       CRL2       CRL2       CRL1
+   96    95    98    99	 9 ;       HGA2       CRL2       CRL2       HGA2
+   96    95    98   100	 9 ;       HGA2       CRL2       CRL2       HGA2
+   97    95    98    54	 9 ;       HGA2       CRL2       CRL2       CRL1
+   97    95    98    99	 9 ;       HGA2       CRL2       CRL2       HGA2
+   97    95    98   100	 9 ;       HGA2       CRL2       CRL2       HGA2
+   90    95    98    54	 9 ;       CRL1       CRL2       CRL2       CRL1
+   90    95    98    99	 9 ;       CRL1       CRL2       CRL2       HGA2
+   90    95    98   100	 9 ;       CRL1       CRL2       CRL2       HGA2
+   75   101   103   104	 9 ;       CRL1       CTL1       CTL3       HAL3
+   75   101   103   105	 9 ;       CRL1       CTL1       CTL3       HAL3
+   75   101   103   106	 9 ;       CRL1       CTL1       CTL3       HAL3
+  102   101   103   104	 9 ;       HAL1       CTL1       CTL3       HAL3
+  102   101   103   105	 9 ;       HAL1       CTL1       CTL3       HAL3
+  102   101   103   106	 9 ;       HAL1       CTL1       CTL3       HAL3
+  107   101   103   104	 9 ;       CTL2       CTL1       CTL3       HAL3
+  107   101   103   105	 9 ;       CTL2       CTL1       CTL3       HAL3
+  107   101   103   106	 9 ;       CTL2       CTL1       CTL3       HAL3
+   75   101   107   108	 9 ;       CRL1       CTL1       CTL2       HAL2
+   75   101   107   109	 9 ;       CRL1       CTL1       CTL2       HAL2
+   75   101   107   110	 9 ;       CRL1       CTL1       CTL2       CTL2
+  102   101   107   108	 9 ;       HAL1       CTL1       CTL2       HAL2
+  102   101   107   109	 9 ;       HAL1       CTL1       CTL2       HAL2
+  102   101   107   110	 9 ;       HAL1       CTL1       CTL2       CTL2
+  103   101   107   108	 9 ;       CTL3       CTL1       CTL2       HAL2
+  103   101   107   109	 9 ;       CTL3       CTL1       CTL2       HAL2
+  103   101   107   110	 9 ;       CTL3       CTL1       CTL2       CTL2
+  101   107   110   111	 9 ;       CTL1       CTL2       CTL2       HAL2
+  101   107   110   112	 9 ;       CTL1       CTL2       CTL2       HAL2
+  101   107   110   113	 9 ;       CTL1       CTL2       CTL2       CTL2
+  108   107   110   111	 9 ;       HAL2       CTL2       CTL2       HAL2
+  108   107   110   112	 9 ;       HAL2       CTL2       CTL2       HAL2
+  108   107   110   113	 9 ;       HAL2       CTL2       CTL2       CTL2
+  109   107   110   111	 9 ;       HAL2       CTL2       CTL2       HAL2
+  109   107   110   112	 9 ;       HAL2       CTL2       CTL2       HAL2
+  109   107   110   113	 9 ;       HAL2       CTL2       CTL2       CTL2
+  107   110   113   114	 9 ;       CTL2       CTL2       CTL2       HAL2
+  107   110   113   115	 9 ;       CTL2       CTL2       CTL2       HAL2
+  107   110   113   116	 9 ;       CTL2       CTL2       CTL2       CTL1
+  111   110   113   114	 9 ;       HAL2       CTL2       CTL2       HAL2
+  111   110   113   115	 9 ;       HAL2       CTL2       CTL2       HAL2
+  111   110   113   116	 9 ;       HAL2       CTL2       CTL2       CTL1
+  112   110   113   114	 9 ;       HAL2       CTL2       CTL2       HAL2
+  112   110   113   115	 9 ;       HAL2       CTL2       CTL2       HAL2
+  112   110   113   116	 9 ;       HAL2       CTL2       CTL2       CTL1
+  110   113   116   117	 9 ;       CTL2       CTL2       CTL1       HAL1
+  110   113   116   118	 9 ;       CTL2       CTL2       CTL1       CTL3
+  110   113   116   122	 9 ;       CTL2       CTL2       CTL1       CTL3
+  114   113   116   117	 9 ;       HAL2       CTL2       CTL1       HAL1
+  114   113   116   118	 9 ;       HAL2       CTL2       CTL1       CTL3
+  114   113   116   122	 9 ;       HAL2       CTL2       CTL1       CTL3
+  115   113   116   117	 9 ;       HAL2       CTL2       CTL1       HAL1
+  115   113   116   118	 9 ;       HAL2       CTL2       CTL1       CTL3
+  115   113   116   122	 9 ;       HAL2       CTL2       CTL1       CTL3
+  113   116   118   119	 9 ;       CTL2       CTL1       CTL3       HAL3
+  113   116   118   120	 9 ;       CTL2       CTL1       CTL3       HAL3
+  113   116   118   121	 9 ;       CTL2       CTL1       CTL3       HAL3
+  117   116   118   119	 9 ;       HAL1       CTL1       CTL3       HAL3
+  117   116   118   120	 9 ;       HAL1       CTL1       CTL3       HAL3
+  117   116   118   121	 9 ;       HAL1       CTL1       CTL3       HAL3
+  122   116   118   119	 9 ;       CTL3       CTL1       CTL3       HAL3
+  122   116   118   120	 9 ;       CTL3       CTL1       CTL3       HAL3
+  122   116   118   121	 9 ;       CTL3       CTL1       CTL3       HAL3
+  113   116   122   123	 9 ;       CTL2       CTL1       CTL3       HAL3
+  113   116   122   124	 9 ;       CTL2       CTL1       CTL3       HAL3
+  113   116   122   125	 9 ;       CTL2       CTL1       CTL3       HAL3
+  117   116   122   123	 9 ;       HAL1       CTL1       CTL3       HAL3
+  117   116   122   124	 9 ;       HAL1       CTL1       CTL3       HAL3
+  117   116   122   125	 9 ;       HAL1       CTL1       CTL3       HAL3
+  118   116   122   123	 9 ;       CTL3       CTL1       CTL3       HAL3
+  118   116   122   124	 9 ;       CTL3       CTL1       CTL3       HAL3
+  118   116   122   125	 9 ;       CTL3       CTL1       CTL3       HAL3
+
+
