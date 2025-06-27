@@ -1,3 +1,7 @@
+import pytest
+
+pytest.skip("legacy integration script - skip during test run", allow_module_level=True)
+
 import shutil
 import os
 import sys

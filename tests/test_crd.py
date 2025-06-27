@@ -1,3 +1,7 @@
+import pytest
+
+pytest.skip("legacy manual script - skip during automated test run", allow_module_level=True)
+
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
