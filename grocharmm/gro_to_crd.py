@@ -1,3 +1,4 @@
+from grocharmm.utils import assign_segment
 
 
 class CRDeditor:
@@ -27,18 +28,18 @@ class CRDeditor:
             content = content.replace(old, new)
         self.lines = content.splitlines(keepends=True)
 
-    def update_segments(self):
-        segment_rules = {
-            'TIP3': 'TIP3',
-            'SOD': 'IONS',
-            'CLA': 'IONS',
-            'DOPE': 'MEMB',
-            'POPC': 'MEMB',
-            'TRIO': 'MEMB',
-        }
+    def update_segments(self, segment_rules=None):
+        # segment_rules = {
+        #     'TIP3': 'TIP3',
+        #     'SOD': 'IONS',
+        #     'CLA': 'IONS',
+        #     'DOPE': 'MEMB',
+        #     'POPC': 'MEMB',
+        #     'TRIO': 'MEMB',
+        # }
 
-        def assign_segment(resname):
-            return segment_rules.get(resname, 'PROA')
+        # def assign_segment(resname):
+        #     return segment_rules.get(resname, 'PROA')
 
         updated_lines = []
         for line in self.lines:
@@ -47,7 +48,7 @@ class CRDeditor:
                 continue
 
             resname = line[20:26].strip()
-            new_segment = assign_segment(resname)
+            new_segment = assign_segment(resname, segment_rules)
             updated_line = line.replace('SYSTEM', new_segment.ljust(6), 1)
             updated_lines.append(updated_line)
 

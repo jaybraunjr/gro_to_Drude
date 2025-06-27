@@ -1,4 +1,5 @@
 import parmed as pmd
+from grocharmm.utils import assign_segment
 
 
 class PSFeditor:
@@ -20,23 +21,23 @@ class PSFeditor:
         topology.coordinates = coordinates.coordinates
         topology.save(output_psf, overwrite=True)
 
-    def update_psf_segments(self):
+    def update_psf_segments(self, segment_rules=None):
 
         """
         Update segment names in the atom section of a CHARMM .psf file.
         Only modifies lines between !NATOM and the next line starting with '!'.
         """
-        segment_rules = {
-            'TIP3': 'TIP3',
-            'SOD': 'IONS',
-            'CLA': 'IONS',
-            'DOPE': 'MEMB',
-            'POPC': 'MEMB',
-            'TRIO': 'MEMB',
-        }
+        # segment_rules = {
+        #     'TIP3': 'TIP3',
+        #     'SOD': 'IONS',
+        #     'CLA': 'IONS',
+        #     'DOPE': 'MEMB',
+        #     'POPC': 'MEMB',
+        #     'TRIO': 'MEMB',
+        # }
 
-        def assign_segment(resname):
-            return segment_rules.get(resname, 'PROA')[:5]
+        # def assign_segment(resname, segment_rules=None):
+        #     return segment_rules.get(resname, 'PROA')[:5]
 
         updated_lines = []
         in_atom_section = False
@@ -57,7 +58,7 @@ class PSFeditor:
             if in_atom_section and atom_lines_remaining > 0:
                 if len(line) >= 35 and line[11:16].strip():
                     resname = line[29:35].strip()
-                    new_segment = assign_segment(resname)
+                    new_segment = assign_segment(resname, segment_rules)
                     updated_line = line[:11] + f"{new_segment:<5}" + line[16:]
                     updated_lines.append(updated_line)
                 else:
