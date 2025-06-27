@@ -1,45 +1,53 @@
-## GRO to CHARMM File Editor (GUI)
+# GRO to CHARMM-Drude File Editor (GUI)
 
-A lightweight Python GUI for converting `.gro` files into CHARMM-compatible `.crd` and `.psf` formats. Useful for Drude and other CHARMM workflows.
+A lightweight Python GUI for converting `.gro` files into CHARMM-compatible `.crd` and `.psf` formats. Designed for Drude and other CHARMM-based workflows.
 
-### Requirements
+## Features
 
-- Python 3.10
-- `parmed`
-- `tkinter` (comes with Python on Windows)
+- Convert `.gro` to `.crd` and `.psf` 
+- Optional residue renaming (CRD mode only)
+- Automatic segment name and residue number updates
+- Custom segment rule editor
 
-Install dependencies with pip:
+## Requirements
 
-```bash
-pip install parmed
-```
+- Python 3.10 or later
+- Parmed
+- `tkinter` (bundled with Python on Windows; may need to be installed on Linux/macOS)
 
-If pip fails, try conda:
+## Usage
 
-```bash
-conda install -c conda-forge parmed
-```
-
-### Usage
-
-To launch the GUI:
+Launch the GUI:
 
 ```bash
 python scripts/gui_editor.py
 ```
 
-### Features
+### Steps
 
-- Convert `.gro` to `.crd` or `.psf`
-- Optional residue renaming (CRD mode only)
-- Automatic segment name and residue number updates
+1. Select an input `.gro` file.
+2. Choose an output path and format (`.crd` or `.psf`).
+3. Select mode: `CRD` or `PSF`.
+4. (Optional) Enable "Replace resnames" (CRD only).
+5. Use **Preview Segments** to automatically populate segment rules.
+6. Modify segment rules if needed (format: `RESNAME:SEGNAME`).
+7. Click **Run** to generate the output file.
 
-### Instructions
+## Default Segment Rules
 
-1. Launch the GUI
-2. Select input and output file paths
-3. Choose output mode (`CRD` or `PSF`)
-4. Optionally enable "Replace resnames" (CRD only)
-5. Click **Run**
+The following rules are used unless you override them:
 
-The output file will be saved to your selected path.
+```
+TIP3:TIP3
+SOD:IONS
+CLA:IONS
+DOPE:MEMB
+POPC:MEMB
+TRIO:MEMB
+```
+
+## Output
+
+The output `.crd` or `.psf` file will be saved to the selected location. Existing files will be overwritten.
+
+
