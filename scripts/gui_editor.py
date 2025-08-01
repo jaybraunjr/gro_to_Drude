@@ -138,7 +138,11 @@ class EditorGUI:
         except Exception as e:
             messagebox.showerror("Error", f"Something went wrong:\n{e}")
 
-if __name__ == "__main__":
+def main():
     root = tk.Tk()
     gui = EditorGUI(root)
     root.mainloop()
+
+
+if __name__ == "__main__":
+    main()

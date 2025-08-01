@@ -15,12 +15,20 @@ A lightweight Python GUI for converting `.gro` files into CHARMM-compatible `.cr
 - Parmed
 - `tkinter` (bundled with Python on Windows; may need to be installed on Linux/macOS)
 
-## Usage
+## Installation
 
-Launch the GUI:
+Install the package and its command-line entry point:
 
 ```bash
-python scripts/gui_editor.py
+pip install .
+```
+
+## Usage
+
+After installation, launch the GUI with:
+
+```bash
+grocharmm-gui
 ```
 
 ### Steps
